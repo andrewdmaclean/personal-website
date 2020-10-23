@@ -1,5 +1,4 @@
 
 
 ### Personal Website for Andrew MacLean
-![](images/screenshot.png)
-This website design is based on [**Dev Landing Page**](https://github.com/flexdinesh/dev-landing-page) by [Dinesh Pandiyan](https://portfoliov1.dineshpandiyan.com)
+![image](https://user-images.githubusercontent.com/26526271/96952188-16d1b900-14a3-11eb-95ec-b860909b40c8.png)
