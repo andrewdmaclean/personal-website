@@ -47,6 +47,21 @@
 <noscript><p><img src="https://portablegeek.ca/analytics/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
 <!-- End Matomo Code -->
 
+<script>
+      (function(d,t) {
+        var BASE_URL = "https://drewwoot.herokuapp.com";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src= BASE_URL + "/packs/js/sdk.js";
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.chatwootSDK.run({
+            websiteToken: 'vPTvzLUUMi8G2TTTQXZJbGzK',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");
+    </script>
+
   <!-- Dark Mode Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
   <script>
