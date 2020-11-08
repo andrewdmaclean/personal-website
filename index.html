@@ -27,10 +27,30 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="https://pbs.twimg.com/profile_images/1304075497106669568/NC6aIQh6_400x400.jpg">
 
-	<!-- Umami
+	<!-- Umami Analytics
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<script async defer data-website-id="10c9fe33-cdb6-4884-bb97-ec33673e4a41" src="http://localhost:3000/umami.js"></script>
+<script async defer data-website-id="6a024f9e-a488-44a9-9a29-3ef3e554f6db" src="https://umami-iota.vercel.app/umami.js"></script>
+	
+	<!-- Matamo Analytics
+--------------------------------------------------------- -->
 
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.andrewdmaclean.com"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://portablegeek.ca/analytics/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://portablegeek.ca/analytics/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+	
   <!-- Dark Mode Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
   <script>
