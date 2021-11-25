@@ -107,6 +107,16 @@ button:hover,
 .button.button-portfolio:focus {
   filter: brightness(90%) }
 
+
+/* Buy me a coffee */
+.button.button-buymeacoffee {
+  color: #000000;
+  background-color: #FFDD00 }
+.button.button-buymeacoffee:hover,
+.button.button-buymeacoffee:focus {
+  filter: brightness(90%) }
+
+
 /* Blank */
 .button.button-blank {
   color: #000000;
