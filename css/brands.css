@@ -73,6 +73,13 @@ button:hover,
   height: 20px;
 }
 
+.icon-wide {
+  padding: 0px 0px 0px 0px;
+  vertical-align: middle;
+  width: 100px;
+  height: auto;
+}
+
 .icon-no-pad {
   padding: 0px 0px 0px 0px;
   vertical-align: middle;
