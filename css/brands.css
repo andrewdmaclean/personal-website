@@ -126,8 +126,8 @@ button:hover,
 
 /* Blank */
 .button.button-blank {
-  color: #000000;
-  background-color: #A0A0A0 }
+  color: #313639;
+  background-color: #FAF9F6 }
 .button.button-blank:hover,
 .button.button-blank:focus {
   filter: brightness(90%) }
